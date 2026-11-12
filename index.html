@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sức Khỏe Vàng Tuổi Trung Niên | Y Khoa Chính Thống Việt Nam & Thế Giới - AI 24/7</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- THANH CAM KẾT Y KHOA CHÍNH THỐNG -->
+  <div class="top-trust-bar">
+    <span class="badge-pill">CAM KẾT 100% Y KHOA CHÍNH THỐNG</span>
+    <span>🏛️ Dẫn nguồn từ Bộ Y tế Việt Nam, Tổ chức Y tế Thế giới (WHO), AHA, ADA &amp; IOF</span>
+    <span>🚫 Tuyệt đối KHÔNG quảng cáo thuốc &amp; thực phẩm chức năng</span>
+    <span>📞 Hotline / Zalo: <strong>0912 343 858</strong></span>
+  </div>
+
+  <!-- THANH ĐIỀU HƯỚNG CHÍNH -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#top" class="brand-logo">
+        <div class="brand-icon">🩺</div>
+        <div class="brand-text">
+          <h1>SỨC KHỎE VÀNG TRUNG NIÊN</h1>
+          <span>Cổng Y Học Chính Thống &amp; Trợ Lý AI 24/7</span>
+        </div>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#kien-thuc-y-khoa">📚 6 Trụ Cột Y Khoa</a>
+        <a href="#cong-cu-tu-do">⚖️ Tự Kiểm Tra Chỉ Số</a>
+        <a href="#cap-cuu-dot-quy">🚨 Nhận Biết Đột Quỵ</a>
+        <a href="#ai-assistant-section">🤖 Hỏi Đáp AI 24/7</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="btnFontToggle" class="btn-font-toggle" onclick="toggleFontSize()">
+          🔍 Phóng to chữ dễ đọc
+        </button>
+        <a href="https://zalo.me/0912343858" target="_blank" class="btn-zalo-nav">
+          💬 Nhắn Zalo: 0912 343 858
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION: TƯƠI SÁNG, BẮT MẮT & HÌNH CHÂN DUNG DUY NHẤT KÈM SỐ ZALO -->
+  <section id="top" class="hero-section">
+    <div class="hero-card">
+      <div class="hero-content">
+        <div class="hero-badge-row">
+          <span class="source-tag tag-moh">🇻🇳 Chuẩn Bộ Y Tế Việt Nam</span>
+          <span class="source-tag tag-who">🌍 Chuẩn Y Khoa Thế Giới (WHO / AHA / ADA)</span>
+          <span class="source-tag tag-noads">🛡️ Không Quảng Cáo Thương Mại</span>
+        </div>
+
+        <h2>
+          Cẩm Nang Chăm Sóc <span class="highlight">Sức Khỏe Chủ Động Tuổi Trung Niên</span> Rõ Ràng &amp; Chuẩn Khoa Học
+        </h2>
+
+        <p class="hero-lead">
+          Trang web thực hành mẫu mực cùng các anh chị học viên trong lớp: Hội tụ tinh hoa y học thực chứng của Thế giới và Việt Nam dành riêng cho lứa tuổi 40 – 65+. Tích hợp <strong>Trợ lý AI Y khoa trực 24/7</strong> sẵn sàng giải đáp mọi lúc, mọi nơi!
+        </p>
+
+        <div class="hero-pillars">
+          <div class="pillar-item">
+            <div class="pillar-icon" style="background:#fee2e2;color:#e11d48;">❤️</div>
+            <span>Kiểm soát Huyết áp &amp; Mạch vành</span>
+          </div>
+          <div class="pillar-item">
+            <div class="pillar-icon" style="background:#e0f2fe;color:#0284c7;">🩸</div>
+            <span>Ổn định Đường huyết &amp; Nội tiết</span>
+          </div>
+          <div class="pillar-item">
+            <div class="pillar-icon" style="background:#fef3c7;color:#d97706;">🦴</div>
+            <span>Bảo vệ Xương khớp &amp; Chống mất cơ</span>
+          </div>
+          <div class="pillar-item">
+            <div class="pillar-icon" style="background:#dcfce7;color:#16a34a;">🤖</div>
+            <span>Trợ lý AI giải đáp Y khoa 24/7</span>
+          </div>
+        </div>
+
+        <div class="hero-cta-group">
+          <a href="#ai-assistant-section" class="btn-primary-hero">
+            🤖 Trò chuyện với Trợ lý AI 24/7 ngay
+          </a>
+          <a href="#cong-cu-tu-do" class="btn-secondary-hero">
+            📊 Tự đo BMI &amp; Huyết áp chuẩn Châu Á
+          </a>
+        </div>
+      </div>
+
+      <!-- KHUNG HÌNH CHÂN DUNG DUY NHẤT TRONG FOLDER KÈM SỐ ĐT & ZALO 0912 343 858 -->
+      <div class="profile-card">
+        <div class="profile-status-badge">
+          <span class="pulse-dot"></span>
+          <span>Hệ thống AI &amp; Zalo Hỗ Trợ 24/7</span>
+        </div>
+
+        <div class="profile-img-wrapper">
+          <img src="avatar.jpg" alt="Hình đại diện đồng hành sức khỏe trung niên" />
+        </div>
+
+        <div class="profile-title">ĐỒNG HÀNH CÙNG ANH CHỊ HỌC VIÊN</div>
+        <div class="profile-subtitle">Chăm Sóc Sức Khỏe Trung Niên Chính Thống</div>
+
+        <div class="contact-box-highlight">
+          <div class="phone-label">Số Điện Thoại &amp; Zalo Chính Thức Duy Nhất</div>
+          <div class="phone-number-display">0912 343 858</div>
+          <div style="font-size:0.82rem;color:#0f766e;font-weight:700;">
+            (Khi vắng mặt đã có Trợ lý AI trực trả lời tự động 24/7 bên dưới)
+          </div>
+        </div>
+
+        <div class="profile-contact-buttons">
+          <a href="tel:0912343858" class="btn-call-direct">
+            📞 Gọi: 0912 343 858
+          </a>
+          <a href="https://zalo.me/0912343858" target="_blank" class="btn-zalo-direct">
+            💬 Kết nối Zalo ngay
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHUYÊN MỤC 1: 6 TRỤ CỘT KIẾN THỨC Y HỌC CHÍNH THỐNG VIỆT NAM & THẾ GIỚI -->
+  <section id="kien-thuc-y-khoa" class="section-container">
+    <div class="section-header">
+      <span class="section-eyebrow">Y HỌC THỰC CHỨNG (EVIDENCE-BASED MEDICINE)</span>
+      <h2>6 Trụ Cột Sức Khỏe Vàng Tuổi Trung Niên (40 – 65+)</h2>
+      <p>
+        Tổng hợp từ phác đồ của <strong>Bộ Y tế Việt Nam</strong>, <strong>Viện Dinh dưỡng Quốc gia</strong> và các tổ chức y tế uy tín nhất thế giới (<strong>WHO, AHA/ESC, ADA, IOF</strong>). Hoàn toàn độc lập, không gắn bất kỳ sản phẩm quảng cáo nào.
+      </p>
+    </div>
+
+    <!-- Thanh lọc chuyên mục -->
+    <div class="filter-bar">
+      <button class="filter-btn active" onclick="filterKnowledge('all', this)">🌟 Tất cả 6 Trụ cột</button>
+      <button class="filter-btn" onclick="filterKnowledge('tim-mach', this)">❤️ Tim mạch &amp; Huyết áp</button>
+      <button class="filter-btn" onclick="filterKnowledge('noi-tiet', this)">🩸 Đường huyết &amp; Nội tiết</button>
+      <button class="filter-btn" onclick="filterKnowledge('xuong-khop', this)">🦴 Cơ Xương Khớp</button>
+      <button class="filter-btn" onclick="filterKnowledge('than-kinh', this)">🧠 Giấc ngủ &amp; Trí não</button>
+      <button class="filter-btn" onclick="filterKnowledge('tam-soat', this)">🔬 Tầm soát Định kỳ</button>
+      <button class="filter-btn" onclick="filterKnowledge('dinh-duong', this)">🥗 Dinh dưỡng &amp; Vận động</button>
+    </div>
+
+    <div class="knowledge-grid">
+      <!-- TRỤ CỘT 1: TIM MẠCH -->
+      <article class="medical-card" data-category="tim-mach">
+        <div class="card-banner banner-cardio">
+          <div class="card-svg-box">❤️</div>
+          <div class="card-banner-title">
+            <span>Trụ cột 01 • Tim Mạch &amp; Tuần Hoàn</span>
+            <h3>Kiểm Soát Huyết Áp, Mỡ Máu &amp; Phòng Đột Quỵ</h3>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="source-citation">
+            📌 Nguồn: Hội Tim mạch học Việt Nam (VNHI), Bộ Y tế &amp; Hiệp hội Tim mạch Hoa Kỳ / Châu Âu (AHA/ESC)
+          </div>
+          <div class="metric-highlight-box">
+            <h4>🎯 Ngưỡng chỉ số mục tiêu cần nhớ:</h4>
+            <p style="font-size:0.88rem;">
+              • <strong>Huyết áp tối ưu:</strong> &lt; 120/80 mmHg (Chẩn đoán Tăng huyết áp khi &ge; 140/90 mmHg tại phòng khám hoặc &ge; 135/85 mmHg tại nhà).<br>
+              • <strong>Mỡ máu xấu (LDL-C):</strong> Cần giữ &lt; 3.0 mmol/L (hoặc &lt; 1.8 mmol/L nếu có bệnh mạch vành/tiểu đường).
+            </p>
+          </div>
+          <ul class="medical-list">
+            <li><strong>Giảm muối dưới 5g/ngày (WHO):</strong> Hạn chế chấm thêm nước mắm/muối tại bàn, giảm đồ muối chua và thực phẩm chế biến sẵn.</li>
+            <li><strong>Bổ sung chất béo tốt tự nhiên:</strong> Ăn cá biển (cá thu, cá hồi, cá trích) 2–3 bữa/tuần; dùng dầu thực vật (dầu ô-liu, dầu đậu nành) thay mỡ động vật.</li>
+            <li><strong>Nguyên tắc dùng thuốc:</strong> Uống thuốc huyết áp đúng giờ mỗi ngày theo đơn bác sĩ; tuyệt đối không tự ngưng thuốc khi thấy người khỏe.</li>
+          </ul>
+          <div class="card-footer-action">
+            <button class="btn-ask-ai-topic" onclick="askAITopic('Chế độ ăn và theo dõi huyết áp, mỡ máu cho người trung niên chuẩn Bộ Y tế như thế nào?')">
+              🤖 Hỏi AI sâu hơn về Tim mạch &amp; Huyết áp &rarr;
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- TRỤ CỘT 2: ĐÁI THÁO ĐƯỜNG & NỘI TIẾT -->
+      <article class="medical-card" data-category="noi-tiet">
+        <div class="card-banner banner-endocrine">
+          <div class="card-svg-box">🩸</div>
+          <div class="card-banner-title">
+            <span>Trụ cột 02 • Chuyển Hóa &amp; Nội Tiết</span>
+            <h3>Phòng &amp; Kiểm Soát Đái Tháo Đường Típ 2</h3>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="source-citation">
+            📌 Nguồn: Hướng dẫn Chẩn đoán &amp; Điều trị Đái tháo đường Típ 2 – Bộ Y tế Việt Nam &amp; Hiệp hội ADA (Hoa Kỳ)
+          </div>
+          <div class="metric-highlight-box">
+            <h4>🎯 Ngưỡng Đường huyết &amp; HbA1c chuẩn:</h4>
+            <p style="font-size:0.88rem;">
+              • <strong>Đường huyết lúc đói:</strong> Bình thường &lt; 5.6 mmol/L | Tiền tiểu đường: 5.6 – 6.9 mmol/L | Tiểu đường: &ge; 7.0 mmol/L.<br>
+              • <strong>Chỉ số HbA1c (3 tháng):</strong> Bình thường &lt; 5.7% | Mục tiêu điều trị: &lt; 7.0%.
+            </p>
+          </div>
+          <ul class="medical-list">
+            <li><strong>Quy tắc Đĩa ăn Khoa học:</strong> 50% đĩa là rau xanh không tinh bột + 25% đạm lành mạnh (cá, đậu phụ, thịt nạc) + 25% tinh bột nguyên cám (gạo lứt, khoai củ).</li>
+            <li><strong>Thứ tự ăn thông minh:</strong> Ăn rau luộc/canh rau trước &rarr; ăn thức ăn đạm &rarr; ăn cơm sau cùng giúp giảm vọt đường huyết sau ăn tới 30%.</li>
+            <li><strong>Cảnh báo:</strong> Không tin các lời quảng cáo "thảo dược gia truyền chữa dứt điểm tiểu đường" gây nguy cơ nhiễm toan ceton và suy thận.</li>
+          </ul>
+          <div class="card-footer-action">
+            <button class="btn-ask-ai-topic" onclick="askAITopic('Hướng dẫn thực đơn và cách kiểm soát đường huyết, HbA1c cho người trung niên?')">
+              🤖 Hỏi AI sâu hơn về Đường huyết &amp; Nội tiết &rarr;
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- TRỤ CỘT 3: CƠ XƯƠNG KHỚP -->
+      <article class="medical-card" data-category="xuong-khop">
+        <div class="card-banner banner-bone">
+          <div class="card-svg-box">🦴</div>
+          <div class="card-banner-title">
+            <span>Trụ cột 03 • Cơ Xương Khớp</span>
+            <h3>Thoái Hóa Khớp, Cột Sống &amp; Phòng Loãng Xương</h3>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="source-citation">
+            📌 Nguồn: Hội Thấp khớp học Việt Nam, Viện Dinh dưỡng Quốc gia &amp; Tổ chức Loãng xương Quốc tế (IOF)
+          </div>
+          <div class="metric-highlight-box">
+            <h4>🎯 Nhu cầu Canxi &amp; Vitamin D tuổi &ge; 50:</h4>
+            <p style="font-size:0.88rem;">
+              • <strong>Canxi nguyên tố:</strong> 1.000 – 1.200 mg/ngày (ưu tiên qua sữa ít đường, sữa chua, cá nhỏ ăn cả xương, đậu phụ, vừng đen).<br>
+              • <strong>Vitamin D3:</strong> 800 – 1.000 IU/ngày kết hợp tắm nắng sáng sớm.
+            </p>
+          </div>
+          <ul class="medical-list">
+            <li><strong>Giảm tải cho khớp gối:</strong> Giảm 1 kg cân nặng dư thừa giúp giảm 4 kg lực nén lên sụn khớp gối trong mỗi bước đi.</li>
+            <li><strong>Tư thế sinh hoạt đúng:</strong> Tránh ngồi xổm, tránh quỳ gối, tránh cúi gập lưng đột ngột bê vật nặng. Ưu tiên bơi lội, đạp xe và đi bộ đường bằng.</li>
+            <li><strong>Tuyệt đối tránh thuốc trộn Corticoid:</strong> Các loại "thuốc tễ, thuốc hoàn" giảm đau cấp tốc không nhãn mác rất dễ gây mục xương và suy thượng thận.</li>
+          </ul>
+          <div class="card-footer-action">
+            <button class="btn-ask-ai-topic" onclick="askAITopic('Cách chăm sóc thoái hóa khớp gối, đau cột sống và bổ sung Canxi tự nhiên cho tuổi trung niên?')">
+              🤖 Hỏi AI sâu hơn về Xương khớp &rarr;
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- TRỤ CỘT 4: GIẤC NGỦ & THẦN KINH -->
+      <article class="medical-card" data-category="than-kinh">
+        <div class="card-banner banner-neuro">
+          <div class="card-svg-box">🧠</div>
+          <div class="card-banner-title">
+            <span>Trụ cột 04 • Thần Kinh &amp; Tinh Thần</span>
+            <h3>Giấc Ngủ Sâu, Bảo Vệ Trí Nhớ &amp; Tiền Đình</h3>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="source-citation">
+            📌 Nguồn: Tổ chức Y tế Thế giới (WHO) &amp; Viện Sức khỏe Tâm thần Quốc gia – Bệnh viện Bạch Mai
+          </div>
+          <div class="metric-highlight-box">
+            <h4>🎯 Thời lượng &amp; Chất lượng giấc ngủ chuẩn:</h4>
+            <p style="font-size:0.88rem;">
+              • Người trung niên cần ngủ đủ <strong>7 – 8 giờ/đêm</strong>. Giấc ngủ sâu từ 22h30 – 2h00 sáng là thời điểm vàng để hệ thần kinh dọn dẹp độc tố <em>Beta-amyloid</em> (ngừa bệnh Alzheimer).
+            </p>
+          </div>
+          <ul class="medical-list">
+            <li><strong>Vệ sinh giấc ngủ (Sleep Hygiene):</strong> Đi ngủ và thức dậy cùng một khung giờ mỗi ngày; tắt màn hình điện thoại ít nhất 45 phút trước khi ngủ.</li>
+            <li><strong>Thư giãn tự nhiên:</strong> Ngâm chân nước ấm 40°C trong 15 phút buổi tối; tập hít thở cơ hoành (hít sâu 4 giây – giữ 4 giây – thở chậm 6 giây).</li>
+            <li><strong>Rèn luyện trí não:</strong> Đọc sách, học công nghệ/AI cùng lớp học, giao lưu bạn bè giúp duy trì kết nối tế bào thần kinh bền vững.</li>
+          </ul>
+          <div class="card-footer-action">
+            <button class="btn-ask-ai-topic" onclick="askAITopic('Phương pháp cải thiện mất ngủ tuổi trung niên và bảo vệ trí nhớ không dùng thuốc an thần?')">
+              🤖 Hỏi AI sâu hơn về Giấc ngủ &amp; Trí não &rarr;
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- TRỤ CỘT 5: TẦM SOÁT ĐỊNH KỲ & UNG THƯ -->
+      <article class="medical-card" data-category="tam-soat">
+        <div class="card-banner banner-cancer">
+          <div class="card-svg-box">🔬</div>
+          <div class="card-banner-title">
+            <span>Trụ cột 05 • Y Học Dự Phòng</span>
+            <h3>Lịch Tầm Soát Sức Khỏe &amp; Phát Hiện Sớm Ung Thư</h3>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="source-citation">
+            📌 Nguồn: Bộ Y tế Việt Nam, Bệnh viện K Trung ương &amp; Hiệp hội Ung thư Hoa Kỳ (ACS)
+          </div>
+          <div class="metric-highlight-box">
+            <h4>🎯 Nguyên tắc Vàng: Phòng bệnh hơn chữa bệnh</h4>
+            <p style="font-size:0.88rem;">
+              Phát hiện sớm ở giai đoạn chưa có triệu chứng giúp tỷ lệ điều trị thành công các bệnh lý mạn tính và ung thư đạt trên <strong>85 – 95%</strong>.
+            </p>
+          </div>
+          <ul class="medical-list">
+            <li><strong>Mỗi 6 – 12 tháng:</strong> Xét nghiệm máu tổng quát (Đường huyết, HbA1c, Mỡ máu, Gan, Thận, Axit Uric), tổng phân tích nước tiểu, siêu âm bụng, Điện tâm đồ.</li>
+            <li><strong>Hệ tiêu hóa (Từ 40–45 tuổi):</strong> Nội soi dạ dày &amp; đại trực tràng định kỳ (đặc biệt khi có nhiễm khuẩn <em>HP</em> hoặc tiền sử gia đình có polyp).</li>
+            <li><strong>Tầm soát chuyên biệt:</strong> Nữ giới chụp nhũ ảnh (Mammography) tuyến vú &amp; xét nghiệm HPV cổ tử cung; Nam giới kiểm tra PSA tuyến tiền liệt &amp; phổi.</li>
+          </ul>
+          <div class="card-footer-action">
+            <button class="btn-ask-ai-topic" onclick="askAITopic('Danh mục các xét nghiệm tầm soát sức khỏe và ung thư định kỳ cho tuổi 45 đến 65?')">
+              🤖 Hỏi AI sâu hơn về Lịch tầm soát &rarr;
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- TRỤ CỘT 6: DINH DƯỠNG & VẬN ĐỘNG CHỐNG MẤT CƠ -->
+      <article class="medical-card" data-category="dinh-duong">
+        <div class="card-banner banner-nutrition">
+          <div class="card-svg-box">🥗</div>
+          <div class="card-banner-title">
+            <span>Trụ cột 06 • Dinh Dưỡng &amp; Thể Lực</span>
+            <h3>Tháp Dinh Dưỡng &amp; Vận Động Ngừa Mất Cơ</h3>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="source-citation">
+            📌 Nguồn: Viện Dinh dưỡng Quốc gia (Bộ Y tế Việt Nam) &amp; Khuyến nghị Thể lực Toàn cầu của WHO
+          </div>
+          <div class="metric-highlight-box">
+            <h4>🎯 Công thức 150 Phút + Đủ Đạm tự nhiên:</h4>
+            <p style="font-size:0.88rem;">
+              • Vận động <strong>150 – 300 phút/tuần</strong> (30 phút/ngày x 5 ngày).<br>
+              • Bổ sung <strong>1.0 – 1.2g Đạm/kg cân nặng/ngày</strong> để chống hội chứng mất cơ <em>Sarcopenia</em> tuổi trung niên.
+            </p>
+          </div>
+          <ul class="medical-list">
+            <li><strong>10 Lời khuyên Dinh dưỡng Bộ Y tế:</strong> Ăn đa dạng thực phẩm; tối thiểu 400g rau xanh và quả chín ít ngọt mỗi ngày; hạn chế đường tự do dưới 25g/ngày.</li>
+            <li><strong>Kết hợp 2 bài tập kháng lực/tuần:</strong> Tập đứng lên ngồi xuống ghế, tập dây kháng lực hoặc tạ tay nhẹ giúp giữ săn chắc cơ bắp và giữ thăng bằng.</li>
+            <li><strong>Uống nước đúng cách:</strong> Uống 1.5 – 2 lít nước ấm mỗi ngày (chia nhỏ từng ngụm, uống 1 cốc nước ấm sau khi thức dậy buổi sáng).</li>
+          </ul>
+          <div class="card-footer-action">
+            <button class="btn-ask-ai-topic" onclick="askAITopic('Gợi ý chế độ ăn uống và bài tập thể dục chống mất cơ cho người trung niên?')">
+              🤖 Hỏi AI sâu hơn về Dinh dưỡng &amp; Vận động &rarr;
+            </button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- CHUYÊN MỤC 2: CÔNG CỤ TỰ ĐÁNH GIÁ CHỈ SỐ SỨC KHỎE CHUẨN Y KHOA -->
+  <section id="cong-cu-tu-do" class="section-container">
+    <div class="section-header">
+      <span class="section-eyebrow">TỰ KIỂM TRA SỨC KHỎE TỨC THÌ</span>
+      <h2>Bộ Công Cụ Đánh Giá Chỉ Số Cơ Thể Chuẩn Châu Á &amp; Bộ Y Tế</h2>
+      <p>
+        Nhập chỉ số của anh/chị để hệ thống tự động đối chiếu theo thang chuẩn <strong>WHO Tây Thái Bình Dương (dành cho người Việt Nam)</strong> và <strong>Hội Tim mạch học Việt Nam</strong>.
+      </p>
+    </div>
+
+    <div class="tools-grid">
+      <!-- CÔNG CỤ 1: TÍNH BMI & VÒNG EO CHÂU Á -->
+      <div class="tool-box">
+        <div class="tool-box-header">
+          <div class="tool-icon">⚖️</div>
+          <div>
+            <h3>1. Đo BMI &amp; Vòng Bụng Chuẩn Người Việt</h3>
+            <span style="font-size:0.82rem;color:#64748b;font-weight:600;">Tiêu chuẩn IDI &amp; WHO WPRO Châu Á</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="bmiGender">Giới tính:</label>
+          <select id="bmiGender" class="form-control">
+            <option value="female">Nữ giới (Ngưỡng vòng eo an toàn &lt; 80 cm)</option>
+            <option value="male">Nam giới (Ngưỡng vòng eo an toàn &lt; 90 cm)</option>
+          </select>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+          <div class="form-group">
+            <label for="bmiHeight">Chiều cao (cm):</label>
+            <input type="number" id="bmiHeight" class="form-control" placeholder="VD: 160" value="160" />
+          </div>
+          <div class="form-group">
+            <label for="bmiWeight">Cân nặng (kg):</label>
+            <input type="number" id="bmiWeight" class="form-control" placeholder="VD: 58" value="58" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="bmiWaist">Số đo vòng eo ngang rốn (cm - tùy chọn):</label>
+          <input type="number" id="bmiWaist" class="form-control" placeholder="VD: 76" value="76" />
+        </div>
+
+        <button class="btn-calc" onclick="calculateAsianBMI()">
+          📊 Phân Tích Chỉ Số BMI &amp; Vòng Eo Ngay
+        </button>
+
+        <div id="bmiResult" class="calc-result">
+          💡 Nhấn nút phân tích để xem kết quả đối chiếu theo chuẩn thể trạng người Việt Nam (BMI lý tưởng: <strong>18.5 – 22.9 kg/m²</strong>).
+        </div>
+      </div>
+
+      <!-- CÔNG CỤ 2: ĐÁNH GIÁ HUYẾT ÁP & ĐƯỜNG HUYẾT -->
+      <div class="tool-box">
+        <div class="tool-box-header">
+          <div class="tool-icon" style="background:linear-gradient(135deg,#e11d48,#f97316);">❤️</div>
+          <div>
+            <h3>2. Kiểm Tra Huyết Áp &amp; Đường Huyết Đói</h3>
+            <span style="font-size:0.82rem;color:#64748b;font-weight:600;">Chuẩn Bộ Y Tế Việt Nam, VNHI &amp; ADA</span>
+          </div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+          <div class="form-group">
+            <label for="bpSys">Huyết áp Tâm thu (Số trên - mmHg):</label>
+            <input type="number" id="bpSys" class="form-control" placeholder="VD: 125" value="125" />
+          </div>
+          <div class="form-group">
+            <label for="bpDia">Huyết áp Tâm trương (Số dưới - mmHg):</label>
+            <input type="number" id="bpDia" class="form-control" placeholder="VD: 80" value="80" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="bloodGlu">Đường huyết lúc đói (mmol/L - nếu có):</label>
+          <input type="number" step="0.1" id="bloodGlu" class="form-control" placeholder="VD: 5.2" value="5.2" />
+        </div>
+
+        <button class="btn-calc" style="background:linear-gradient(135deg,#e11d48,#f97316);" onclick="checkVitals()">
+          🩺 Kiểm Tra Phân Độ Huyết Áp &amp; Đường Huyết
+        </button>
+
+        <div id="vitalsResult" class="calc-result">
+          💡 Nhập số đo máy đo huyết áp tại nhà của anh/chị để xem phân độ theo khuyến cáo của Hội Tim mạch học Việt Nam.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHUYÊN MỤC 3: CẢNH BÁO ĐỘT QUỴ QUY TẮC F.A.S.T -->
+  <section id="cap-cuu-dot-quy" class="section-container">
+    <div class="emergency-banner">
+      <div class="emergency-header">
+        <div>
+          <span style="font-size:0.85rem;font-weight:800;color:#e11d48;text-transform:uppercase;">KIẾN THỨC CỨU MẠNG MỌI GIA ĐÌNH CẦN THUỘC LÒNG</span>
+          <h3>🚨 Quy Tắc F.A.S.T Nhận Biết Sớm Đột Quỵ Não (Bộ Y Tế &amp; WHO)</h3>
+        </div>
+        <div class="badge-115">📞 CẤP CỨU Y TẾ: 115</div>
+      </div>
+
+      <div class="fast-grid">
+        <div class="fast-item">
+          <div class="fast-letter">F</div>
+          <h4>Face (Khuôn mặt)</h4>
+          <p style="font-size:0.9rem;color:#334155;">Miệng bị lệch sang một bên, nhân trung lệch, nụ cười méo rõ khi yêu cầu người bệnh cười hoặc nhe răng.</p>
+        </div>
+        <div class="fast-item">
+          <div class="fast-letter">A</div>
+          <h4>Arm (Tay chân)</h4>
+          <p style="font-size:0.9rem;color:#334155;">Tê bì hoặc yếu liệt một bên tay/chân. Khi giơ hai tay lên trước mặt, một tay tự động rơi thõng xuống.</p>
+        </div>
+        <div class="fast-item">
+          <div class="fast-letter">S</div>
+          <h4>Speech (Lời nói)</h4>
+          <p style="font-size:0.9rem;color:#334155;">Đột ngột nói ngọng, nói đớ, dính chữ hoặc không nói được câu đơn giản, khó hiểu lời người khác.</p>
+        </div>
+        <div class="fast-item">
+          <div class="fast-letter">T</div>
+          <h4>Time (Thời gian vàng)</h4>
+          <p style="font-size:0.9rem;color:#334155;">Gọi ngay <strong>115</strong> đưa tới bệnh viện có đơn vị đột quỵ trong <strong>3 – 4.5 giờ đầu</strong>. Tuyệt đối KHÔNG chích máu ngón tay hay cạo gió!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHUYÊN MỤC 4: TRUNG TÂM TRỢ LÝ AI Y KHOA 24/7 -->
+  <section id="ai-assistant-section" class="section-container">
+    <div class="ai-center-card">
+      <!-- Cột thông tin người đồng hành & gợi ý câu hỏi nhanh -->
+      <div class="ai-info-column">
+        <div>
+          <span style="background:#2dd4bf;color:#0f172a;font-weight:900;font-size:0.8rem;padding:5px 14px;border-radius:999px;display:inline-block;margin-bottom:14px;">
+            🤖 TRỢ LÝ AI THÔNG MINH TRỰC 24/7
+          </span>
+          <h2 style="font-size:1.85rem;font-weight:900;line-height:1.25;margin-bottom:12px;">
+            Giải Đáp Sức Khỏe Tự Động 24/7 Ngay Cả Khi Vắng Mặt
+          </h2>
+          <p style="color:#ccfbf1;font-size:0.95rem;margin-bottom:20px;">
+            Khi chị bận giảng dạy hoặc ngoài giờ làm việc, <strong>Trợ lý AI Y khoa</strong> sẽ trực tiếp trả lời anh/chị học viên ngay lập tức dựa trên phác đồ chính thống của Bộ Y tế Việt Nam &amp; WHO.
+          </p>
+
+          <div class="ai-host-mini">
+            <img src="avatar.jpg" alt="Hình đại diện chủ nhiệm" />
+            <div>
+              <div style="font-weight:800;font-size:1.05rem;color:#ffffff;">Kết nối trực tiếp &amp; Zalo</div>
+              <div style="font-size:1.25rem;font-weight:900;color:#5eead4;">📞 0912 343 858</div>
+              <div style="font-size:0.8rem;color:#cbd5e1;">Bấm vào các câu hỏi mẫu bên dưới để thử AI ngay:</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ai-quick-prompts">
+          <div style="font-weight:800;font-size:0.88rem;color:#99f6e4;margin-bottom:4px;">💡 Bấm chọn câu hỏi thường gặp:</div>
+          <button class="prompt-chip" onclick="askAITopic('Chỉ số huyết áp bao nhiêu là cao và cách giảm huyết áp tự nhiên chuẩn Bộ Y tế?')">
+            👉 1. Chỉ số huyết áp bao nhiêu là cao? Cách kiểm soát chuẩn Bộ Y tế?
+          </button>
+          <button class="prompt-chip" onclick="askAITopic('Người trung niên bị tiền tiểu đường hoặc tiểu đường típ 2 nên ăn uống theo quy tắc nào?')">
+            👉 2. Người trung niên bị tiểu đường / đường huyết cao nên ăn uống thế nào?
+          </button>
+          <button class="prompt-chip" onclick="askAITopic('Đau mỏi khớp gối, cột sống và phòng ngừa loãng xương tuổi trung niên cần lưu ý gì?')">
+            👉 3. Đau khớp gối, thoái hóa cột sống &amp; bổ sung Canxi chuẩn y khoa?
+          </button>
+          <button class="prompt-chip" onclick="askAITopic('Cách khắc phục mất ngủ, khó ngủ ban đêm ở tuổi trung niên không lạm dụng thuốc?')">
+            👉 4. Cách khắc phục mất ngủ, giúp ngủ sâu giấc ở tuổi trung niên?
+          </button>
+          <button class="prompt-chip" onclick="askAITopic('Tuổi trung niên từ 45 đến 65 tuổi cần làm những xét nghiệm tầm soát định kỳ nào?')">
+            👉 5. Lịch khám tầm soát sức khỏe &amp; ung thư định kỳ tuổi 45–65+?
+          </button>
+        </div>
+      </div>
+
+      <!-- Cột Cửa sổ Chat AI 24/7 -->
+      <div class="ai-chat-window">
+        <div class="chat-window-header">
+          <div class="chat-header-left">
+            <img src="avatar.jpg" alt="Avatar Trợ lý AI" />
+            <div>
+              <div style="font-weight:900;font-size:1rem;">Trợ Lý AI Sức Khỏe Trung Niên 24/7</div>
+              <div style="font-size:0.78rem;opacity:0.92;">🟢 Đang trực tuyến • Nguồn Bộ Y Tế &amp; WHO • Zalo: 0912 343 858</div>
+            </div>
+          </div>
+          <button class="btn-api-config" onclick="openApiModal()" title="Cấu hình khóa Gemini AI mở rộng (Tùy chọn)">
+            ⚙️ Cấu hình AI
+          </button>
+        </div>
+
+        <div id="chatMessages" class="chat-messages">
+          <div class="msg-row bot">
+            <img src="avatar.jpg" alt="Chủ nhiệm" class="msg-avatar" />
+            <div class="msg-bubble">
+              👋 <strong>Xin chào các anh/chị học viên và quý độc giả!</strong><br>
+              Tôi là <strong>Trợ lý AI Y khoa 24/7</strong> đồng hành cùng trang thực hành Sức Khỏe Tuổi Trung Niên (Số ĐT / Zalo chính thức: <strong style="color:#0068ff;">0912 343 858</strong>).<br><br>
+              Mọi câu trả lời tại đây đều tuân thủ nghiêm ngặt kiến thức chính thống của <strong>Bộ Y tế Việt Nam &amp; Tổ chức Y tế Thế giới (WHO)</strong>, hoàn toàn không quảng cáo thực phẩm chức năng.<br><br>
+              Anh/chị đang quan tâm đến <strong>Huyết áp, Đường huyết, Xương khớp, Giấc ngủ</strong> hay <strong>Tầm soát định kỳ</strong>? Hãy nhập câu hỏi bên dưới nhé!
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-input-bar">
+          <input
+            type="text"
+            id="aiUserInput"
+            placeholder="Nhập câu hỏi sức khỏe của anh/chị tại đây (Trực 24/7)..."
+            autocomplete="off"
+          />
+          <button class="btn-send-chat" onclick="handleSendChatMessage()">
+            Gửi câu hỏi &rarr;
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHÂN TRANG (FOOTER) -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <h3 style="color:#ffffff;font-size:1.25rem;margin-bottom:10px;">🩺 CỔNG SỨC KHỎE VÀNG TUỔI TRUNG NIÊN</h3>
+        <p style="font-size:0.9rem;color:#cbd5e1;margin-bottom:12px;">
+          Ứng dụng web thực hành chuẩn mực dành cho các anh chị học viên trong lớp. Thiết kế tươi sáng, rõ ràng, hội tụ kiến thức y khoa chính thống trong nước và quốc tế, tích hợp Trợ lý AI trả lời tự động 24/7.
+        </p>
+      </div>
+
+      <div>
+        <h4 style="color:#5eead4;font-size:1rem;margin-bottom:10px;">🏛️ Nguồn Y Khoa Tham Chiếu Chính Thống</h4>
+        <ul style="list-style:none;font-size:0.88rem;line-height:1.8;color:#cbd5e1;">
+          <li>• Bộ Y tế Việt Nam &amp; Viện Dinh dưỡng Quốc gia</li>
+          <li>• Tổ chức Y tế Thế giới (WHO)</li>
+          <li>• Hội Tim mạch học Việt Nam (VNHI) &amp; AHA/ESC</li>
+          <li>• Hiệp hội Đái tháo đường Hoa Kỳ (ADA) &amp; IOF</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 style="color:#5eead4;font-size:1rem;margin-bottom:10px;">📞 Thông Tin Liên Hệ Duy Nhất</h4>
+        <div style="background:rgba(255,255,255,0.08);padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,0.15);">
+          <div style="font-size:0.85rem;color:#94a3b8;">Điện thoại &amp; Zalo kết nối trực tiếp:</div>
+          <div style="font-size:1.35rem;font-weight:900;color:#38bdf8;margin:4px 0;">0912 343 858</div>
+          <div style="font-size:0.82rem;color:#cbd5e1;">Hỗ trợ tự động 24/7 qua Trợ lý AI trên trang web</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="medical-disclaimer">
+      <strong>⚠️ Lưu ý Y khoa Chính thống:</strong> Toàn bộ thông tin và câu trả lời từ Trợ lý AI trên trang web được biên soạn từ các hướng dẫn y tế công cộng của Bộ Y tế Việt Nam và WHO nhằm mục đích giáo dục sức khỏe chủ động, hoàn toàn phi thương mại (không bán thuốc hay thực phẩm chức năng). Thông tin không thay thế cho việc khám lâm sàng và kê đơn trực tiếp của bác sĩ chuyên khoa tại bệnh viện.
+    </div>
+  </footer>
+
+  <!-- NÚT NỔI GÓC DƯỚI PHẢI (ZALO + AI 24/7) -->
+  <div class="floating-dock">
+    <a href="https://zalo.me/0912343858" target="_blank" class="float-btn-zalo">
+      💬 Zalo: 0912 343 858
+    </a>
+    <button class="float-btn-ai" onclick="document.getElementById('ai-assistant-section').scrollIntoView({behavior:'smooth'})">
+      🤖 Hỏi Trợ Lý AI 24/7
+    </button>
+  </div>
+
+  <!-- MODAL CẤU HÌNH API KEY MỞ RỘNG (TÙY CHỌN) -->
+  <div id="apiModal" class="modal-backdrop">
+    <div class="modal-box">
+      <h3 style="font-size:1.2rem;color:#0f172a;margin-bottom:8px;">⚙️ Cấu Hình Kết Nối Gemini AI Nâng Cao (Tùy chọn)</h3>
+      <p style="font-size:0.88rem;color:#475569;margin-bottom:14px;">
+        Mặc định, <strong>Trợ lý AI Y khoa 24/7</strong> đã được nạp sẵn Cơ sở Tri thức Chính thống (Bộ Y tế &amp; WHO) và hoạt động ngay lập tức 100% không cần khóa. Nếu anh/chị muốn kết nối thêm với mô hình ngôn ngữ Gemini trực tuyến, có thể nhập Gemini API Key vào ô dưới đây:
+      </p>
+      <div class="form-group">
+        <label for="geminiKeyInput">Gemini API Key (Để trống nếu dùng Bộ Tri Thức Y Khoa tích hợp sẵn):</label>
+        <input type="password" id="geminiKeyInput" class="form-control" placeholder="AIzaSy..." />
+      </div>
+      <div style="display:flex;justify-content:flex-end;gap:10px;margin-top:16px;">
+        <button onclick="closeApiModal()" style="padding:10px 16px;border-radius:10px;border:1px solid #cbd5e1;background:#f1f5f9;font-weight:700;cursor:pointer;">Đóng</button>
+        <button onclick="saveApiKey()" style="padding:10px 18px;border-radius:10px;border:none;background:#0d9488;color:#fff;font-weight:800;cursor:pointer;">Lưu cấu hình</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
